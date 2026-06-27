@@ -1,0 +1,13 @@
+
+#	Ignore the <build> directories.
+build/
+
+#	Ignore stb/src link file.
+deps/stb/src
+
+#	Ignore <examples> executables.
+examples/**/*
+!examples/**/*/
+!examples/**/*.*
+examples/**/*.exe
+
